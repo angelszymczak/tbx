@@ -1,0 +1,24 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "FizzBuzz",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juanszymczak/tbx/fizzbuzz"
+  },
+  "keywords": [
+    "fizzbuzz"
+  ],
+  "author": "Juan Szymczak @juanszymczak",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0",
+    "nodemon": "^1.11.0",
+    "supertest": "^3.0.0"
+  }
+}
